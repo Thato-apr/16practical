@@ -99,10 +99,10 @@ public class tryHeapSort {
         System.out.println("Bottom-Up build + sort: " + timeBottomUp + " ms");
         System.out.println("Top-Down build + sort:  " + timeTopDown  + " ms");
 
-        System.out.println("\nFirst 20 sorted words (Bottom-Up):");
-        for (int i = 0; i < 20; i++) System.out.println("  " + result1[i]);
+        System.out.println("\nFirst n sorted words (Bottom-Up):");
+        for (int i = 0; i < words.length; i++) System.out.println("  " + result1[i]);
 
-        System.out.println("\nFirst 20 sorted words (Top-Down):");
-        for (int i = 0; i < 20; i++) System.out.println("  " + result2[i]);
+        System.out.println("\nFirst n sorted words (Top-Down):");
+        for (int i = 0; i < words.length; i++) System.out.println("  " + result2[i]);
     }
 }
